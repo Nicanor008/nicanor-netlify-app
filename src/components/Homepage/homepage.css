@@ -10,6 +10,7 @@
   height: 832px;
   left: 610px;
   top: 0px;
+  z-index: 100;
 
   /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
