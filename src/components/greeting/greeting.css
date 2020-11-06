@@ -1,0 +1,93 @@
+/* variables */
+:root {
+  --fontFamily: "Nunito", sans-serif;
+}
+
+.greetings {
+  display: flex;
+  width: 40%;
+}
+.wave {
+  position: absolute;
+  width: 51.69px;
+  height: 55.76px;
+  left: 221px;
+  top: 259.82px;
+}
+.ownerIntro {
+  position: absolute;
+  width: 237px;
+  height: 27px;
+  left: 278px;
+  top: 256px;
+  font-family: var(--fontFamily);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #303135;
+}
+.ownerName {
+  position: absolute;
+  width: 267px;
+  height: 46px;
+  left: 278px;
+  top: 279px;
+  font-family: var(--fontFamily);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 46px;
+  color: #3e3f43;
+}
+.ownerRole {
+  position: absolute;
+  width: 404px;
+  height: 44px;
+  left: 237px;
+  top: 290px;
+  font-family: var(--fontFamily);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 48px;
+  color: #3e3f43;
+}
+.roleDescription {
+  position: absolute;
+  width: 385px;
+  height: 20px;
+  left: 243px;
+  top: 368px;
+
+  font-family: var(--fontFamily);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #5e5f62;
+}
+.viewResume {
+  position: absolute;
+  left: 243px;
+  top: 448px;
+  background: #b18839;
+  box-shadow: -2px -2px 1px #777e87, 2px 2px 6px #627184;
+  border-radius: 111.005px;
+  padding: 1rem 2.5rem;
+  border: 0;
+}
+.viewResume > span {
+  font-family: var(--fontFamily);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19.9809px;
+  line-height: 27px;
+  color: #eeeeee;
+}
+.viewResume > svg {
+    /* margin-right: 2rem; */
+  /* margin-top: 2rem; */
+  /* background-color: red; */
+}
