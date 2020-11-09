@@ -3,6 +3,7 @@ import "./homepage.css";
 import NickieJump from "../../images/Nickie.svg";
 import SocialButtons from "../social/social";
 import Skills from "../skills/skills";
+import Tools from "../tools/tools";
 
 function Homepage() {
   return (
@@ -17,6 +18,9 @@ function Homepage() {
       <div>
         <Skills />
       </div>
+
+      {/* tools */}
+      <Tools />
     </div>
   );
 }

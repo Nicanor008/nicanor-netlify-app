@@ -40,8 +40,8 @@ function SocialButtons() {
               fill="white"
             />
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M13.5 0C9.91958 0 6.4858 1.3275 3.95406 3.69045C1.42232 6.05341 0 9.25827 0 12.6L0 29.4C0 32.7417 1.42232 35.9466 3.95406 38.3095C6.4858 40.6725 9.91958 42 13.5 42H31.5C35.0804 42 38.5142 40.6725 41.0459 38.3095C43.5777 35.9466 45 32.7417 45 29.4V12.6C45 9.25827 43.5777 6.05341 41.0459 3.69045C38.5142 1.3275 35.0804 0 31.5 0L13.5 0ZM12 21C12 18.4009 13.1062 15.9082 15.0754 14.0704C17.0445 12.2325 19.7152 11.2 22.5 11.2C25.2848 11.2 27.9555 12.2325 29.9246 14.0704C31.8938 15.9082 33 18.4009 33 21C33 23.5991 31.8938 26.0918 29.9246 27.9296C27.9555 29.7675 25.2848 30.8 22.5 30.8C19.7152 30.8 17.0445 29.7675 15.0754 27.9296C13.1062 26.0918 12 23.5991 12 21ZM33 11.2H36V8.4H33V11.2Z"
               fill="url(#paint0_linear)"
             />
@@ -54,15 +54,15 @@ function SocialButtons() {
                 y2="42"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#404BE6" />
-                <stop offset="0.106486" stop-color="#833AB4" />
-                <stop offset="0.205964" stop-color="#C13584" />
-                <stop offset="0.315557" stop-color="#E1306C" />
-                <stop offset="0.438639" stop-color="#FD1D1D" />
-                <stop offset="0.568465" stop-color="#F56040" />
-                <stop offset="0.764047" stop-color="#F77737" />
-                <stop offset="0.905676" stop-color="#FCAF45" />
-                <stop offset="1" stop-color="#FFDC80" />
+                <stop stopColor="#404BE6" />
+                <stop offset="0.106486" stopColor="#833AB4" />
+                <stop offset="0.205964" stopColor="#C13584" />
+                <stop offset="0.315557" stopColor="#E1306C" />
+                <stop offset="0.438639" stopColor="#FD1D1D" />
+                <stop offset="0.568465" stopColor="#F56040" />
+                <stop offset="0.764047" stopColor="#F77737" />
+                <stop offset="0.905676" stopColor="#FCAF45" />
+                <stop offset="1" stopColor="#FFDC80" />
               </linearGradient>
             </defs>
           </svg>

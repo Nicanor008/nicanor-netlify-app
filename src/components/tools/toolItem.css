@@ -1,0 +1,42 @@
+.toolItem1 {
+  position: absolute;
+  width: 126px;
+  height: 148px;
+  left: 656px;
+  top: 1960px;
+  z-index: 5;
+}
+.toolItem2 {
+  position: absolute;
+  width: 126px;
+  height: 148px;
+  left: 886px;
+  top: 1915px;
+  z-index: 5;
+}
+.toolItem3 {
+  position: absolute;
+  width: 126px;
+  height: 148px;
+  left: 1073px;
+  top: 1819px;
+  z-index: 5;
+}
+.toolItem4 {
+  position: absolute;
+  width: 124px;
+  height: 148px;
+  left: 1210px;
+  top: 1675px;
+  z-index: 5;
+}
+.toolItem-text {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #000000;
+}

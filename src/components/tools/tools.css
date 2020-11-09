@@ -1,0 +1,71 @@
+.toolsImageNicanor {
+  position: absolute;
+  width: 429px;
+  height: 512px;
+  left: 131px;
+  top: 1512px;
+  z-index: 3;
+}
+.toolsTitle {
+  font-family: Nunito;
+  font-style: normal;
+}
+.toolsTitle1 {
+  position: absolute;
+  width: 92px;
+  height: 27px;
+  left: 830px;
+  top: 1500px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #3347ff;
+}
+.toolsTitle2 {
+  position: absolute;
+  width: 453px;
+  height: 46px;
+  left: 667px;
+  top: 1522px;
+
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 46px;
+
+  color: #3e3f43;
+}
+.toolsHandPointerWrapper {
+  position: absolute;
+  width: 328px;
+  height: 85px;
+  left: 656px;
+  top: 1705px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+.toolsHandPointer-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 2rem;
+  color: #000000;
+  text-align: center;
+}
+.toolsHandPointer-image {
+  position: absolute;
+  padding-left: 0.7rem;
+  /* transform: matrix(-0.02, 1, 1, 0.02, 0, 0); */
+}
+.toolsImageRoadmapArrow {
+  position: absolute;
+  width: 814px;
+  height: 406px;
+  left: 520px;
+  top: 1630px;
+  z-index: 2;
+}
