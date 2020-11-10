@@ -4,6 +4,7 @@ import NickieJump from "../../images/Nickie.svg";
 import SocialButtons from "../social/social";
 import Skills from "../skills/skills";
 import Tools from "../tools/tools";
+import Projects from "../projects/projects";
 
 function Homepage() {
   return (
@@ -21,6 +22,9 @@ function Homepage() {
 
       {/* tools */}
       <Tools />
+
+      {/* projects */}
+      <Projects />
     </div>
   );
 }
