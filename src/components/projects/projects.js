@@ -3,7 +3,7 @@ import ProjectBg2 from "../../images/projects/ProjectsBg2.svg";
 import ArrowLeft from "../../images/projects/ArrowLeft.svg";
 import ArrowRight from "../../images/projects/ArrowRight.svg";
 import InProduction from "../../images/projects/InProduction.svg";
-import Project from "../../images/projects/project1.jpg";
+import Project from "../../images/projects/project1.webp";
 
 import "./projects.css";
 

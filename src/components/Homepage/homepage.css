@@ -1,8 +1,8 @@
 .homepageWrapper {
   background-color: #bec8d5;
   margin: 0;
-  width: 100%;
-  min-height: 3500px;
+  /* width: 100%; */
+  min-height: 3300px;
 }
 .NickieJumping {
   position: absolute;
@@ -11,6 +11,4 @@
   left: 610px;
   top: 0px;
   z-index: 100;
-
-  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
