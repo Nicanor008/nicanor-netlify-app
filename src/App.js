@@ -1,11 +1,17 @@
-import Homepage from './components/Homepage/homepage';
-import './App.css';
+import loadable from "@loadable/component";
+
+import "./App.css";
+
+const Homepage = loadable(() => import("./components/Homepage/homepage"));
 
 function App() {
   return (
-    <div style={{backgroundColor:'red'}}>
-    <Homepage />
-    </div>
+    <main>
+      <a className="skip-link" href="#maincontent">
+        Skip to main
+      </a>
+      <Homepage />
+    </main>
   );
 }
 

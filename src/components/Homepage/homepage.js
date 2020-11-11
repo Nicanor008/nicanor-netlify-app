@@ -1,14 +1,16 @@
 import { Helmet } from "react-helmet";
+import loadable from "@loadable/component";
 
-import Greetings from "../greeting/greeting";
 import "./homepage.css";
 import NickieJump from "../../images/Nickie.svg";
 import NicImage from "../../images/Nic-Image.svg";
-import SocialButtons from "../social/social";
-import Skills from "../skills/skills";
-import Tools from "../tools/tools";
-import Projects from "../projects/projects";
-import Footer from "../footer/footer";
+
+const Greetings = loadable(() => import("../greeting/greeting"));
+const SocialButtons = loadable(() => import("../social/social"));
+const Skills = loadable(() => import("../skills/skills"));
+const Tools = loadable(() => import("../tools/tools"));
+const Projects = loadable(() => import("../projects/projects"));
+const Footer = loadable(() => import("../footer/footer"));
 
 function Homepage() {
   return (
@@ -24,13 +26,16 @@ function Homepage() {
         <meta name="author" content="Nicanor Korir" />
         <meta property="og:title" content="Nicanor Korir" />
         <meta property="og:image" content={NicImage} />
-        <meta name="twitter:card" content="Nicanor Korir is an enthusiastic software engineer who is well versed with how the different technologies work to meet business needs." />
+        <meta
+          name="twitter:card"
+          content="Nicanor Korir is an enthusiastic software engineer who is well versed with how the different technologies work to meet business needs."
+        />
         <meta name="twitter:site" content="@nicanor_nic" />
         <meta property="og:description" content="Nicanor Korir portfolio" />
       </Helmet>
       <div className="greetingsHomeWrapper">
         <Greetings />
-        <img src={NickieJump} alt="Nicanor Jumping" className="NickieJumping" />
+        <img src={NickieJump} alt="Nicanor Jumping" className="NickieJumping" height="832" width="235"/>
         <SocialButtons />
       </div>
 

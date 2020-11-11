@@ -1,11 +1,10 @@
+import "./projects.css";
 import ProjectBg1 from "../../images/projects/ProjectsBg1.svg";
 import ProjectBg2 from "../../images/projects/ProjectsBg2.svg";
 import ArrowLeft from "../../images/projects/ArrowLeft.svg";
 import ArrowRight from "../../images/projects/ArrowRight.svg";
 import InProduction from "../../images/projects/InProduction.svg";
 import Project from "../../images/projects/project1.webp";
-
-import "./projects.css";
 
 function Projects() {
   return (
@@ -15,17 +14,21 @@ function Projects() {
         src={ProjectBg1}
         alt="background animation"
         className="projectsBg projectsBg1"
+        height="801"
+        width="400"
       />
       <img
         src={ProjectBg2}
         alt="background animation"
         className="projectsBg projectsBg2"
+        width="546"
+        height="733"
       />
 
       {/* project wrapper */}
       <div className="projectsBg projectsWrapper">
         <div className="projectDetails">
-          <img src={Project} alt="project" className="projectImage" />
+          <img src={Project} alt="project" className="projectImage" height="406" width="720" />
           <div className="projectDetails-description">
             <div>
               <p className="projectsDetails-text, projectDetails-title">
@@ -39,6 +42,8 @@ function Projects() {
                   src={InProduction}
                   alt="project status"
                   className="projectStatus"
+                  width="68"
+                  height="18"
                 />
               </div>
               <br />
@@ -76,7 +81,7 @@ function Projects() {
 
         {/* footer */}
         <div className="projectsFooter">
-          <img src={ArrowLeft} alt="Arrow left" />
+          <img src={ArrowLeft} alt="Arrow left" height="70" width="70" />
           <span>
             <center>
               <p className="projectsFooter-text projectsFooter-text1">
@@ -87,7 +92,7 @@ function Projects() {
               </p>
             </center>
           </span>
-          <img src={ArrowRight} alt="Arrow right" />
+          <img src={ArrowRight} alt="Arrow right" height="70" width="70" />
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ function ToolItems() {
     <div>
       {/* item 1 - UI/Ux */}
       <div className="toolItem1">
-        <img src={UIUX} alt="ux-ux tools" />
+        <img src={UIUX} alt="ux-ux tools" height="116" width="116" />
         <center>
           <p className="toolItem-text">UI/UX</p>
         </center>
@@ -16,7 +16,7 @@ function ToolItems() {
 
       {/* item 2 - Frontend */}
       <div className="toolItem2">
-        <img src={Frontend} alt="ux-ux tools" />
+        <img src={Frontend} alt="ux-ux tools" height="116" width="116" />
         <center>
           <p className="toolItem-text">Frontend</p>
         </center>
@@ -24,7 +24,7 @@ function ToolItems() {
 
       {/* item 3 - Backend */}
       <div className="toolItem3">
-        <img src={Backend} alt="ux-ux tools" />
+        <img src={Backend} alt="ux-ux tools" height="116" width="116" />
         <center>
           <p className="toolItem-text">Backend</p>
         </center>
@@ -32,7 +32,7 @@ function ToolItems() {
 
       {/* item 3 - Backend */}
       <div className="toolItem4">
-        <img src={Others} alt="ux-ux tools" />
+        <img src={Others} alt="ux-ux tools" height="116" width="116" />
         <center>
           <p className="toolItem-text">Others</p>
         </center>

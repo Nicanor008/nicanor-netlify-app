@@ -10,7 +10,13 @@ function Tools() {
   return (
     <div>
       <div>
-        <img src={NicImage} alt="Nicanor" className="toolsImageNicanor" />
+        <img
+          src={NicImage}
+          alt="Nicanor"
+          className="toolsImageNicanor"
+          height="512"
+          width="426"
+        />
       </div>
       <div>
         <div>
@@ -35,6 +41,8 @@ function Tools() {
           src={RoadmapArrow}
           alt="Nicanor Tools roadmap"
           className="toolsImageRoadmapArrow"
+          height="814"
+          width="406"
         />
       </div>
     </div>
