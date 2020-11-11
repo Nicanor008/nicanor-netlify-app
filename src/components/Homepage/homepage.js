@@ -14,7 +14,7 @@ const Footer = loadable(() => import("../footer/footer"));
 
 function Homepage() {
   return (
-    <div className="homepageWrapper">
+    <main className="homepageWrapper">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Nicanor Korir</title>
@@ -52,7 +52,7 @@ function Homepage() {
 
       {/* footer */}
       <Footer />
-    </div>
+    </main>
   );
 }
 

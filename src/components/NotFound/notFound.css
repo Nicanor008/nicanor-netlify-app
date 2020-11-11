@@ -1,0 +1,85 @@
+.notFound {
+  position: relative;
+  width: 100%;
+  background: #bec8d4;
+  margin: 0;
+}
+.notFound-404 {
+  position: absolute;
+  width: 740px;
+  height: 340px;
+  left: 189px;
+  font-family: Noteworthy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 200px;
+  line-height: 323px;
+  text-align: center;
+  color: rgba(177, 136, 57, 0.3);
+}
+.notFound-oops {
+  position: absolute;
+  width: 195px;
+  height: 82px;
+  left: 152px;
+  top: 350px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 82px;
+  color: #000000;
+}
+.notFound-troop {
+  position: absolute;
+  width: 278px;
+  height: 41px;
+  left: 159px;
+  top: 460px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+}
+.notFound-troop-description {
+  position: absolute;
+  width: 240px;
+  height: 20px;
+  left: 159px;
+  top: 521px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/* button */
+.viewResume {
+  position: absolute;
+  left: 172px;
+  top: 574px;
+  background: #b18839;
+  box-shadow: -2px -2px 1px #777e87, 2px 2px 6px #627184;
+  border-radius: 111.005px;
+  padding: 1rem 2.5rem;
+  border: 0;
+  cursor: pointer;
+}
+.viewResume > a {
+  font-family: var(--fontFamily);
+  font-size: 17.9809px;
+  line-height: 27px;
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+/* image */
+.notFound-image {
+  position: absolute;
+  right: 300px;
+  top: 160px;
+}
