@@ -86,3 +86,53 @@
   line-height: 27px;
   color: #eeeeee;
 }
+@media (max-width:1000px){
+  .wave {
+    left: 151px;
+    top: 259.82px;
+  }
+  .ownerIntro, .ownerName, .ownerRole, .roleDescription, .viewResume {
+    left: 208px;
+  }
+}
+@media (max-width: 768px) {
+  .wave {
+    left: 121px;
+    top: 259.82px;
+  }
+  .ownerIntro, .ownerName, .ownerRole, .roleDescription, .viewResume {
+    left: 188px;
+  }
+}
+@media (max-width: 568px) {
+  .wave {
+    left: 87px;
+  }
+  .ownerIntro, .ownerName, .ownerRole, .roleDescription, .viewResume {
+    left: 148px;
+  }
+}
+@media (max-width: 368px) {
+  .wave {
+    left: 28px;
+    top: 109.82px;
+  }
+  .ownerIntro, .ownerName, .ownerRole, .roleDescription, .viewResume {
+    left: 98px;
+  }
+  .ownerIntro {
+    top: 109.82px;
+  }
+  .ownerName {
+    top: 138.82px;
+  }
+  .ownerRole {
+    top: 150.82px;
+  }
+  .roleDescription {
+    top: 210.82px;
+  }
+  .viewResume {
+    top: 270.82px;
+  }
+}

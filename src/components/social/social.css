@@ -15,4 +15,9 @@
 .socialDetails > a {
     padding: 0 1rem;
 }
-
+@media (max-width: 368px) {
+  .socialWrapper {
+    left: 0;
+    border-radius: 0px 50px 50px 0px;
+  }
+}

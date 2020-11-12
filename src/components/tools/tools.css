@@ -69,3 +69,33 @@
   top: 1630px;
   z-index: 2;
 }
+@media (max-width: 768px) {
+  .skillsWrapper {
+    left: 182px;
+  }
+}
+@media (max-width: 568px) {
+  .skillsWrapper {
+    left: 122px;
+  }
+}
+@media (max-width: 368px) {
+  .toolsImageNicanor {
+    width: 289px;
+    height: 312px;
+    top: 1710px;
+    left: 0;
+  }
+  .toolsTitle1 {
+    left: 420px;
+  }
+  .toolsTitle2 {
+    left: 250px;
+  }
+  .toolsHandPointerWrapper {
+    left: 366px;
+  }
+  .toolsImageRoadmapArrow {
+    left: 230px;
+  }
+}

@@ -1,7 +1,7 @@
 .homepageWrapper {
+  position: relative;
   background-color: #bec8d5;
   margin: 0;
-  /* width: 100%; */
   min-height: 3300px;
 }
 .NickieJumping {
@@ -11,4 +11,28 @@
   left: 610px;
   top: 0px;
   z-index: 100;
+}
+@media (max-width: 1400px) {
+  .homepageWrapper {
+    width: 1468px;
+  }
+}
+@media (max-width: 768px) {
+  .homepageWrapper {
+    width: 1368px;
+  }
+}
+@media (max-width: 568px) {
+  .homepageWrapper {
+    width: 1268px;
+  }
+}
+@media (max-width: 368px) {
+  .homepageWrapper {
+    width: 1168px;
+    min-height: 3500px;
+  }
+  .NickieJumping {
+    left: 473px;
+  }
 }

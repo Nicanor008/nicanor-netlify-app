@@ -40,3 +40,17 @@
 
   color: #000000;
 }
+@media (max-width: 368px) {
+  .toolItem1 {
+    left: 346px;
+  }
+  .toolItem2 {
+    left: 576px;
+  }
+  .toolItem3 {
+    left: 776px;
+  }
+  .toolItem4 {
+    left: 916px;
+  }
+}

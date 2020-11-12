@@ -28,7 +28,15 @@ function Projects() {
       {/* project wrapper */}
       <div className="projectsBg projectsWrapper">
         <div className="projectDetails">
-          <img src={Project} alt="project" className="projectImage" height="406" width="720" />
+          <center>
+            <img
+              src={Project}
+              alt="project"
+              className="projectImage"
+              height="406"
+              width="720"
+            />
+          </center>
           <div className="projectDetails-description">
             <div>
               <p className="projectsDetails-text, projectDetails-title">

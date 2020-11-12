@@ -37,3 +37,8 @@
 .footer-contacts-mail {
     padding: 2rem 5rem;
 }
+@media (max-width: 368px) {
+  .footer {
+    top: 3394px;
+  }
+}
