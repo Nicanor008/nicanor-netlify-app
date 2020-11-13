@@ -1,17 +1,18 @@
-import NicImage from "../../images/Nic-Image.svg";
-import RoadmapArrow from "../../images/RoadmapArrow.svg";
+import loadable from "@loadable/component";
+
 import HandPointer from "../../images/HandPointer.jpg";
 
 import "./tools.css";
 import "./toolItem.css";
-import ToolItems from "./toolItems/toolItem";
+
+const ToolItems = loadable(() => import("./toolItems/toolItem"));
 
 function Tools() {
   return (
     <div>
       <div>
         <img
-          src={NicImage}
+          src="https://res.cloudinary.com/nicanor/image/upload/v1605273279/Nic-Image.svg"
           alt="Nicanor"
           className="toolsImageNicanor"
           height="512"
@@ -38,7 +39,7 @@ function Tools() {
         </div>
         <ToolItems />
         <img
-          src={RoadmapArrow}
+          src="https://res.cloudinary.com/nicanor/image/upload/v1605273479/RoadmapArrow.svg"
           alt="Nicanor Tools roadmap"
           className="toolsImageRoadmapArrow"
           height="814"

@@ -2,8 +2,6 @@ import { Helmet } from "react-helmet";
 import loadable from "@loadable/component";
 
 import "./homepage.css";
-import NickieJump from "../../images/Nickie.svg";
-import NicImage from "../../images/Nic-Image.svg";
 
 const Greetings = loadable(() => import("../greeting/greeting"));
 const SocialButtons = loadable(() => import("../social/social"));
@@ -25,7 +23,7 @@ function Homepage() {
         />
         <meta name="author" content="Nicanor Korir" />
         <meta property="og:title" content="Nicanor Korir" />
-        <meta property="og:image" content={NicImage} />
+        <meta property="og:image" content="https://res.cloudinary.com/nicanor/image/upload/v1605273279/Nic-Image.svg" />
         <meta
           name="twitter:card"
           content="Nicanor Korir is an enthusiastic software engineer who is well versed with how the different technologies work to meet business needs."
@@ -35,7 +33,13 @@ function Homepage() {
       </Helmet>
       <div className="greetingsHomeWrapper">
         <Greetings />
-        <img src={NickieJump} alt="Nicanor Jumping" className="NickieJumping" height="832" width="235"/>
+        <img
+          src="https://res.cloudinary.com/nicanor/image/upload/v1605272957/Nickie.svg"
+          alt="Nicanor Jumping"
+          className="NickieJumping"
+          height="832"
+          width="235"
+        />
         <SocialButtons />
       </div>
 
