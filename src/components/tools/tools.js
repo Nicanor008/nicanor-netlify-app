@@ -12,7 +12,7 @@ function Tools() {
     <div>
       <div>
         <img
-          src="https://res.cloudinary.com/nicanor/image/upload/v1605273279/Nic-Image.svg"
+          src="https://res.cloudinary.com/nicanor/image/upload/v1605286542/Nic-Image.webp"
           alt="Nicanor"
           className="toolsImageNicanor"
           height="512"

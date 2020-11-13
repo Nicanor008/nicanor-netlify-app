@@ -52,11 +52,19 @@
 .projectStatus {
   padding-left: 5.5rem;
 }
+.projectStatus-helper {
+  font-size: small;
+  color: #6f6a6a;
+}
 .projectDetails-Tags {
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
-  color: #9e6901;
+  color: #3d2902;
+  margin-right: 0.5rem;
+  background-color: #cac9c9;
+  padding: 0.2rem 0.8rem;
+  border-radius: 15px;
 }
 .projectDetails-source {
   width: 100%;

@@ -1,5 +1,4 @@
 function Project({ activeProject }) {
-  //   console.log(">>>>>>>>>>>>>>>......", activeProject.subTitleImage);
   return (
     <div className="projectDetails">
       <center>
@@ -16,14 +15,14 @@ function Project({ activeProject }) {
           <p className="projectsDetails-text projectDetails-title">
             {activeProject.title}
           </p>
-          <div>
+          <div style={{display:'flex'}}>
             <span className="projectDetails-text projectDetails-subTitle">
               {activeProject.subTitle}
             </span>
-            <span className="projectsDetails-text projectStatus">
-              Status:{" "}
+            <span className="projectsDetails-text projectStatus" style={{display:'flex'}}>
+              <div className="projectStatus-helper">Status:</div>&nbsp;&nbsp;
               <img
-                src={activeProject.subTitleImage.InProduction}
+                src={activeProject.subTitleImage}
                 alt="project status"
                 width="68"
                 height="18"
@@ -31,14 +30,20 @@ function Project({ activeProject }) {
             </span>
           </div>
           <br />
-          <span className="projectDetails-text projectDetails-Tags">
-            {activeProject.tags}
+          <span>
+            {activeProject.tags.map((tag) => (
+              <span className="projectDetails-text projectDetails-Tags">
+                {tag}
+              </span>
+            ))}
           </span>
           <div className="projectDetails-source">
             {activeProject.accessLink.status && (
               <a
                 href={activeProject.accessLink.url}
                 className="projectDetails-text projectDetails-link"
+                target="_blank"
+                rel="nofollow noreferrer"
               >
                 {activeProject.accessLink.name}
               </a>
@@ -47,6 +52,8 @@ function Project({ activeProject }) {
               <a
                 href={activeProject.sourceCode.url}
                 className="projectDetails-text projectDetails-link"
+                target="_blank"
+                rel="nofollow noreferrer"
               >
                 {activeProject.sourceCode.name}
               </a>

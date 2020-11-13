@@ -12,6 +12,7 @@ function Projects() {
   const [activeProject, setActiveProject] = useState("");
   const [activeProjectNumber, setActiveProjectNumber] = useState(0);
   const [nextButtonInactive, setNextButtonInactive] = useState(true);
+  const [previousButtonInactive, setPreviousButtonInactive] = useState(false);
 
   useEffect(() => {
     setActiveProject(ProjectsData[0]);
@@ -21,8 +22,18 @@ function Projects() {
   const nextProject = () => {
     setActiveProject(ProjectsData[activeProjectNumber + 1]);
     setActiveProjectNumber(activeProjectNumber + 1);
+    setPreviousButtonInactive(true);
     if (ProjectsData[activeProjectNumber + 2] === undefined)
       setNextButtonInactive(false);
+  };
+
+  const previosProject = () => {
+    setActiveProject(ProjectsData[activeProjectNumber - 1]);
+    setNextButtonInactive(true);
+    setActiveProjectNumber(activeProjectNumber - 1);
+    if (activeProjectNumber === 0 || activeProjectNumber === 1) {
+      setPreviousButtonInactive(false);
+    }
   };
 
   // console.log(activeProjectNumber, ">>>>>>>>>>>><<<<<<<<<<<<<<<<<<<fff>>>......", activeProject);
@@ -51,7 +62,17 @@ function Projects() {
 
         {/* footer */}
         <div className="projectsFooter">
-          <img src={ArrowLeft} alt="Arrow left" height="70" width="70" />
+          <img
+            src={ArrowLeft}
+            alt="Arrow left"
+            height="70"
+            width="70"
+            style={{
+              opacity: !previousButtonInactive && 0.5,
+              cursor: `${previousButtonInactive ? "pointer" : "default"}`,
+            }}
+            onClick={previousButtonInactive ? previosProject : null}
+          />
           <span>
             <center>
               <p className="projectsFooter-text projectsFooter-text1">
