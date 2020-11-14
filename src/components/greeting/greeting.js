@@ -21,7 +21,13 @@ function Greetings() {
       <p className="roleDescription">
         Frontend Developer Consultant & likes to try new things
       </p>
-      <button type="button"  className="viewResume">
+      <a
+        href="https://res.cloudinary.com/nicanor/image/upload/v1605345819/Nicanor_Resume.pdf"
+        type="button"
+        className="viewResume"
+        target="_blank"
+        rel="nofollow noreferrer"
+      >
         <svg
           width="24"
           height="24"
@@ -40,7 +46,7 @@ function Greetings() {
         </svg>
         &nbsp;&nbsp;
         <span>View Resume</span>
-      </button>
+      </a>
     </div>
   );
 }

@@ -77,6 +77,7 @@
   border-radius: 111.005px;
   padding: 1rem 2.5rem;
   border: 0;
+  text-decoration: none;
 }
 .viewResume > span {
   font-family: var(--fontFamily);
