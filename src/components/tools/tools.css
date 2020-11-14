@@ -40,21 +40,35 @@
 }
 .toolsHandPointerWrapper {
   position: absolute;
-  width: 328px;
-  height: 85px;
+  width: 428px;
+  height: 105px;
   left: 656px;
   top: 1705px;
   background-color: #ffffff;
   border-radius: 3px;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
 }
-.toolsHandPointer-text {
+.toolsItem-text {
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
-  margin-top: 2rem;
   color: #000000;
   text-align: center;
+}
+.toolsHandPointer-text {
+  margin-top: 2rem;
+}
+.toolsActive-text {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+  margin-top: 0;
+}
+.toolsActive-tool {
+  margin: 0.2rem 0.4rem;
+  padding: 0.1rem 0.6rem;
+  border-radius: 15px;
+  background-color: #ebebeb;
 }
 .toolsHandPointer-image {
   position: absolute;
@@ -68,6 +82,9 @@
   left: 520px;
   top: 1630px;
   z-index: 2;
+}
+.inactiveItem {
+  opacity: 0.4;
 }
 @media (max-width: 768px) {
   .skillsWrapper {

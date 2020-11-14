@@ -32,7 +32,7 @@ function Project({ activeProject }) {
           <br />
           <span>
             {activeProject.tags.map((tag) => (
-              <span className="projectDetails-text projectDetails-Tags">
+              <span className="projectDetails-text projectDetails-Tags" key={tag}>
                 {tag}
               </span>
             ))}

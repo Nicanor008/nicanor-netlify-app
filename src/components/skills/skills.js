@@ -1,12 +1,12 @@
 import Skill from "./skill";
 import "./skills.css";
 
-import UI_UX_Development from "../../images/skills/ui_ux_development.svg"
-import Pencil from "../../images/skills/pencil.svg"
-import API from "../../images/skills/api.svg"
 import UI_UX_Design from "../../images/skills/ui_ux.svg"
-import HardSkills from "../../images/skills/hardSkills.svg"
-import SoftSkills from "../../images/skills/softSkills.svg"
+import Frontend from "../../images/toolsIcon/frontend.svg"
+import Backend from "../../images/toolsIcon/backend.svg"
+import Pencil from "../../images/toolsIcon/pencil.svg"
+import Graduate from "../../images/toolsIcon/graduate.svg"
+import SoftSkills from "../../images/toolsIcon/softSkills.svg"
 
 function Skills() {
   return (
@@ -33,19 +33,19 @@ function Skills() {
             <Skill
               title="API & Microservices Development"
               description="Development of the application logic to meet the business values"
-              logo={API}
+              logo={Backend}
             />
           </div>
           <div>
             <Skill
               title="UI/UX Development"
               description="implementation of the designs to create real interactive platforms for users"
-              logo={UI_UX_Development}
+              logo={Frontend}
             />
             <Skill
               title="Secondary Hard Skills"
               description="Cloud | Computer repair & maintenance"
-              logo={HardSkills}
+              logo={Graduate}
             />
             <Skill
               title="Soft Skills"
