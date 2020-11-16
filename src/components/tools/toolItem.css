@@ -40,17 +40,36 @@
 
   color: #000000;
 }
+.tools-image {
+  width: 126px;
+  height: 148px;
+}
 @media (max-width: 368px) {
   .toolItem1 {
-    left: 346px;
+    left: 40px;
+    top: 2080px;
+  }
+  .toolItem1 > p,
+  .toolItem2 > p,
+  .toolItem3 > p,
+  .toolItem4 > p {
+    margin-block-start: 0px;
+    font-size: 14px;
   }
   .toolItem2 {
-    left: 576px;
+    left: 120px;
+    top: 2068px;
   }
   .toolItem3 {
-    left: 776px;
+    left: 190px;
+    top: 2038px;
   }
   .toolItem4 {
-    left: 916px;
+    left: 250px;
+    top: 1990px;
+  }
+  .tools-image {
+    width: 46px;
+    height: 48px;
   }
 }

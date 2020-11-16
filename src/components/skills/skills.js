@@ -18,7 +18,7 @@ function Skills() {
         </center>
         <br />
         <br />
-        <div style={{ display: "flex" }}>
+        <div className="skillsWrapper-skills">
           <div>
             <Skill
               title="UI/UX Design"

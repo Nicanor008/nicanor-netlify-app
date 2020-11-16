@@ -29,10 +29,10 @@
 }
 @media (max-width: 368px) {
   .homepageWrapper {
-    width: 1168px;
+    width: 368px;
     min-height: 3500px;
   }
   .NickieJumping {
-    left: 473px;
+    display: none;
   }
 }

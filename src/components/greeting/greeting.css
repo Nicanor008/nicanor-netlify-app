@@ -115,11 +115,11 @@
 }
 @media (max-width: 368px) {
   .wave {
-    left: 28px;
-    top: 109.82px;
+    left: 8px;
+    top: 59.82px;
   }
   .ownerIntro, .ownerName, .ownerRole, .roleDescription, .viewResume {
-    left: 98px;
+    left: 8px;
   }
   .ownerIntro {
     top: 109.82px;
@@ -129,9 +129,11 @@
   }
   .ownerRole {
     top: 150.82px;
+    font-size: 24px;
   }
   .roleDescription {
     top: 210.82px;
+    width: 280px;
   }
   .viewResume {
     top: 270.82px;

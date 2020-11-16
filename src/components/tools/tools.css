@@ -73,7 +73,6 @@
 .toolsHandPointer-image {
   position: absolute;
   padding-left: 0.7rem;
-  /* transform: matrix(-0.02, 1, 1, 0.02, 0, 0); */
 }
 .toolsImageRoadmapArrow {
   position: absolute;
@@ -97,22 +96,42 @@
   }
 }
 @media (max-width: 368px) {
-  .toolsImageNicanor {
-    width: 289px;
-    height: 312px;
-    top: 1710px;
-    left: 0;
-  }
   .toolsTitle1 {
-    left: 420px;
+    width: 92px;
+    height: 27px;
+    left: 120px !important;
+    top: 1770px !important;
   }
   .toolsTitle2 {
-    left: 250px;
+    width: 453px;
+    height: 46px;
+    left: 67px;
+    top: 1792px;
+    font-size: 22px;
   }
-  .toolsHandPointerWrapper {
-    left: 366px;
+  .toolsImageNicanor {
+    display: none;
+  }
+  .toolsTitle1 {
+    left: 20px;
+  }
+  .toolsTitle2 {
+    left: 25px;
   }
   .toolsImageRoadmapArrow {
-    left: 230px;
+    top: 1830px;
+    left: 10px;
+    width: 300px;
+    height: 406px;
+  }
+  .toolsHandPointerWrapper {
+    width: 200px;
+    height: 205px;
+    left: 17px;
+    top: 1860px;
+
+  }
+  .toolsHandPointer-text {
+    margin-top: 1rem;
   }
 }

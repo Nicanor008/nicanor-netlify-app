@@ -9,15 +9,24 @@
   border-radius: 50px 0px 0px 50px;
 }
 .socialDetails {
-    padding: 2rem 3rem;
-    display: flex;
+  padding: 2rem 3rem;
+  display: flex;
 }
 .socialDetails > a {
-    padding: 0 1rem;
+  padding: 0 1rem;
 }
 @media (max-width: 368px) {
   .socialWrapper {
     left: 0;
     border-radius: 0px 50px 50px 0px;
+    top: 436px;
+    width: 260px;
+    height: 88px;
+  }
+  .socialDetails {
+    padding: 1.4rem 0.5rem;
+  }
+  .socialDetails > a {
+    padding: 0 0.5rem;
   }
 }

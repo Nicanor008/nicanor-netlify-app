@@ -8,23 +8,16 @@ function ToolItems({ onClickTool, activeItemCSS }) {
     <div>
       {/* item 1 - UI/Ux */}
       <div
-        className={`toolItem1 ${
-          activeItemCSS === "UI/UX" && "inactiveItem"
-        }`}
+        className={`toolItem1 ${activeItemCSS === "UI/UX" && "inactiveItem"}`}
         onClick={() =>
-          onClickTool([
-            "Figma",
-            "Adobe Illustrator",
-            "Photoshop",
-            "Sketch",
-            "Inkscape",
-          ], 'UI/UX')
+          onClickTool(
+            ["Figma", "Adobe Illustrator", "Photoshop", "Sketch", "Inkscape"],
+            "UI/UX"
+          )
         }
       >
-        <img src={UIUX} alt="ux-ux tools" height="116" width="116" />
-        <center>
-          <p className="toolItem-text">UI/UX</p>
-        </center>
+        <img src={UIUX} alt="ux-ux tools" className="tools-image" />
+        <p className="toolItem-text">UI/UX</p>
       </div>
 
       {/* item 2 - Frontend */}
@@ -33,63 +26,50 @@ function ToolItems({ onClickTool, activeItemCSS }) {
           activeItemCSS === "Frontend" && "inactiveItem"
         }`}
         onClick={() =>
-          onClickTool([
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "SASS",
-            "React JS",
-            "Gatsby JS",
-          ], 'Frontend')
+          onClickTool(
+            ["HTML", "CSS", "JavaScript", "SASS", "React JS", "Gatsby JS"],
+            "Frontend"
+          )
         }
       >
-        <img src={Frontend} alt="ux-ux tools" height="116" width="116" />
-        <center>
-          <p className="toolItem-text">Frontend</p>
-        </center>
+        <img src={Frontend} alt="ux-ux tools" className="tools-image" />
+        <p className="toolItem-text">Frontend</p>
       </div>
 
       {/* item 3 - Backend */}
       <div
         className={`toolItem3 ${activeItemCSS === "Backend" && "inactiveItem"}`}
         onClick={() =>
-          onClickTool([
-            "Node JS",
-            "Python",
-            "Django",
-            "Mongo DB",
-            "Postgres",
-            "Redis",
-          ], 'Backend')
+          onClickTool(
+            ["Node JS", "Python", "Django", "Mongo DB", "Postgres", "Redis"],
+            "Backend"
+          )
         }
       >
-        <img src={Backend} alt="ux-ux tools" height="116" width="116" />
-        <center>
-          <p className="toolItem-text">Backend</p>
-        </center>
+        <img src={Backend} alt="ux-ux tools" className="tools-image" />
+        <p className="toolItem-text">Backend</p>
       </div>
 
       {/* item 3 - Backend */}
       <div
-        className={`toolItem4 ${
-          activeItemCSS === "Others" && "inactiveItem"
-        }`}
+        className={`toolItem4 ${activeItemCSS === "Others" && "inactiveItem"}`}
         onClick={() =>
-          onClickTool([
-            "Git",
-            "Agile",
-            "Docker",
-            "CI/CD",
-            "TDD",
-            "Google Cloud Basic DevOps",
-            "Pencil Drawing",
-          ], 'Others')
+          onClickTool(
+            [
+              "Git",
+              "Agile",
+              "Docker",
+              "CI/CD",
+              "TDD",
+              "Google Cloud Basic DevOps",
+              "Pencil Drawing",
+            ],
+            "Others"
+          )
         }
       >
-        <img src={Others} alt="ux-ux tools" height="116" width="116" />
-        <center>
-          <p className="toolItem-text">Others</p>
-        </center>
+        <img src={Others} alt="ux-ux tools" className="tools-image" />
+        <p className="toolItem-text">Others</p>
       </div>
     </div>
   );
