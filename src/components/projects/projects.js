@@ -36,8 +36,6 @@ function Projects() {
     }
   };
 
-  // console.log(activeProjectNumber, ">>>>>>>>>>>><<<<<<<<<<<<<<<<<<<fff>>>......", activeProject);
-
   return (
     <div>
       {/* set background colors/animations */}

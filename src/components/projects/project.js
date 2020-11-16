@@ -6,8 +6,6 @@ function Project({ activeProject }) {
           src={activeProject.coverImage}
           alt="project"
           className="projectImage"
-          height="406"
-          width="720"
         />
       </center>
       <div className="projectDetails-description">

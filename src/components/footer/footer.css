@@ -14,7 +14,6 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 33px;
-
   color: #000000;
 }
 .footer-hrLine {
@@ -40,5 +39,11 @@
 @media (max-width: 368px) {
   .footer {
     top: 3394px;
+  }
+  .footer-text {
+    width: 119px;
+    height: 66px;
+    left: 32px;
+    font-size: 20px;
   }
 }

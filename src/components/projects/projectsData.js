@@ -31,8 +31,6 @@ export const ProjectsData = [
           The analyse task is still in testing and enhancement phase and doesn't give best results at the moment, but works(important). 
           The Prediction feature is still in development. We working to use the most effective algorithms, AI tools and machine learning to 
           train the algorithms to give accurate prediction model.<br /><br />
-          Some awesome extra features include current weather, real-time clock, randomly generated quotes. When bored why not just read awesome quotes to boost your psyche. <br />
-          Nicanor and his friends' have been using this tool during the development, to just ensure enhancements & errors are noted and worked on. 
           At LP, we do believe, manage your tasks should be automated and effective.</p>`,
   },
   {

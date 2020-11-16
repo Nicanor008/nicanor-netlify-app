@@ -86,9 +86,7 @@
   font-size: 16px;
   line-height: 19px;
   text-align: justify;
-
   color: #000000;
-  /* margin */
 }
 
 .projectsFooter {
@@ -122,10 +120,30 @@
 @media (max-width: 368px) {
   .projectsWrapper {
     top: 2327.34px;
-    height: 931px;
-    width: 88%;
+    height: 981px;
+    width: 85%;
+    padding: 0;
   }
   .projectDetails {
     display: inline;
+    top: 2%;
+    width: 88%;
+  }
+  .projectImage {
+    width: 250px;
+    height: 166px;
+    padding-left: 2rem;
+  }
+  .projectDetails-title {
+    font-size: 22px;
+  }
+  .projectStatus {
+    padding-left: 3rem;
+  }
+  .projectsFooter-text1 {
+    font-size: 16px;
+  }
+  .projectsFooter-text2 {
+    font-size: 14px;
   }
 }
