@@ -7,7 +7,7 @@ const Greetings = loadable(() => import("../greeting/greeting"));
 const SocialButtons = loadable(() => import("../social/social"));
 const Skills = loadable(() => import("../skills/skills"));
 const Tools = loadable(() => import("../tools/tools"));
-const Projects = loadable(() => import("../projects/projects"));
+// const Projects = loadable(() => import("../projects/projects"));
 const Footer = loadable(() => import("../footer/footer"));
 
 function Homepage() {
@@ -52,7 +52,7 @@ function Homepage() {
       <Tools />
 
       {/* projects */}
-      <Projects />
+      {/* <Projects /> */}
 
       {/* footer */}
       <Footer />
