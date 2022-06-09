@@ -11,6 +11,7 @@ import BlogAndTimeline from './components/BlogAndTimeline';
 import Intro from './components/Intro';
 import NavBar from './components/NavBar';
 import Work from './components/Work';
+import Footer from './components/Footer';
 
 function Homepage() {
   return (
@@ -36,9 +37,11 @@ function Homepage() {
             <Work />
 
             <BlogAndTimeline />
+
           </VStack>
         </Grid>
       </Box>
+      <Footer />
     </ChakraProvider>
   );
 }

@@ -80,7 +80,7 @@ export const TimelineJob = ({ title, time, active, role, work }) => (
       </svg>
     ) : (
       <svg width="33" height="34" viewBox="0 0 33 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M2.86439 3.9883L27.8937 17.4268L2.56561 30.2933L2.86439 3.9883Z" stroke="#587BF8" stroke-width="4"/>
+        <path d="M2.86439 3.9883L27.8937 17.4268L2.56561 30.2933L2.86439 3.9883Z" stroke="#587BF8" strokeWidth="4"/>
       </svg>
     )}
     <Flex pl={2}>
