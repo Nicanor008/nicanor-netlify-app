@@ -43,7 +43,7 @@ const About = () => {
           </Flex>
         </Flex>
 
-        <Text pt={4}>
+        <Text pt={4} textAlign="justify">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nisl eget quisque in sit venenatis ultricies.
           Fermentum, placerat ultrices purus consectetur. Pharetra, felis volutpat metus consectetur nisl nullam ornare.
           Et euismod commodo lectus luctus eu id elementum a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
