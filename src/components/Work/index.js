@@ -8,26 +8,26 @@ const Work = () => {
         <Flex flexDir="column" w={['100%', '50%']} pr={[2, 12]}>
           <Text fontSize={['36px', '50px']} fontWeight={700} fontFamily="Inter">WORK & PROJECTS</Text>
           <Text pt={4} textAlign="justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nisl eget quisque in sit venenatis ultricies.
-              Fermentum, placerat ultrices purus consectetur. Pharetra, felis volutpat metus consectetur nisl nullam ornare.
-              Et euismod commodo lectus luctus eu id elementum a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              nulla nisl eget quisque in sit venenatis ultricies. Fermentum, placerat ultrices purus consectetur. Pharetra, felis 
-              volutpat metus consectetur nisl nullam ornare. Et euismod commodo lectus luctus eu id elementum a.eget quisque in sit 
-              venenatis ultricies. Fermentum, placerat ultrices purus consectetur. Pharetra, felis volutpat metus consectetur nisl 
-              nullam ornare. Et euismod commodo lectus luctus eu id elementum a.
-            </Text>
-            <Button
-              width="100%"
-              border="2px solid #9DB1FB"
-              borderRadius="50px"
-              bg="white"
-              mt={4}
-              variant="solid"
-              colorScheme="white"
-              color="black"
-            >
-              View All Projects
-            </Button>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nisl eget quisque in sit venenatis ultricies.
+            Fermentum, placerat ultrices purus consectetur. Pharetra, felis volutpat metus consectetur nisl nullam ornare.
+            Et euismod commodo lectus luctus eu id elementum a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            nulla nisl eget quisque in sit venenatis ultricies. Fermentum, placerat ultrices purus consectetur. Pharetra, felis 
+            volutpat metus consectetur nisl nullam ornare. Et euismod commodo lectus luctus eu id elementum a.eget quisque in sit 
+            venenatis ultricies. Fermentum, placerat ultrices purus consectetur. Pharetra, felis volutpat metus consectetur nisl 
+            nullam ornare. Et euismod commodo lectus luctus eu id elementum a.
+          </Text>
+          <Button
+            width="100%"
+            border="2px solid #9DB1FB"
+            borderRadius="50px"
+            bg="white"
+            mt={4}
+            variant="solid"
+            colorScheme="white"
+            color="black"
+          >
+            View All Projects
+          </Button>
         </Flex>
         <Project
           link="https://futr.ai"

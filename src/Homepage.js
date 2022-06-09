@@ -7,6 +7,7 @@ import {
   Flex
 } from '@chakra-ui/react';
 import About from './components/About';
+import BlogAndTimeline from './components/BlogAndTimeline';
 import Intro from './components/Intro';
 import NavBar from './components/NavBar';
 import Work from './components/Work';
@@ -14,7 +15,7 @@ import Work from './components/Work';
 function Homepage() {
   return (
     <ChakraProvider theme={theme}>
-      <Box fontSize="xl">
+      <Box fontSize="md">
         <Grid minH="100vh" py={3} mx={["2rem", "6rem"]}>
           <NavBar />
           <VStack spacing={8}>
@@ -33,6 +34,8 @@ function Homepage() {
             <About />
 
             <Work />
+
+            <BlogAndTimeline />
           </VStack>
         </Grid>
       </Box>
