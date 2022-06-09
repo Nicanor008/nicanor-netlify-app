@@ -1,13 +1,14 @@
 import { Flex, Box, Text, Image, Link, HStack, Tag, TagLabel } from '@chakra-ui/react'
 import Futr from '../../assets/images/futr.svg'
 
-const Project = ({ link, title, role, tools, pl, pr }) => (
+const Project = ({ link, title, role, tools, pl, pr, mt }) => (
   <Flex
     flexDir="column"
     w={["100%", "50%"]}
     ml={[0, pl]}
     mr={[0, pr]}
     pt={[6, 0]}
+    mt={[10, 3]}
     border="1px solid #D1D9F4"
     borderRadius="4px"
   >

@@ -30,7 +30,7 @@ const Intro = () => {
         </Flex>
         <Box fontSize={["80px", "100px"]} marginBlockStart={0} marginBlockEnd={0} fontWeight="800" fontFamily="inter" mt="-30px !important">NICANOR</Box>
         <Box
-          fontSize={["126px", "156px"]}
+          fontSize={["126px", "160px"]}
           marginBlockStart={0}
           marginBlockEnd={0}
           fontWeight="800"
