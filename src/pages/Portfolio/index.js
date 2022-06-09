@@ -19,7 +19,7 @@ const Portfolio = () => {
         <VStack spacing={8}>
           <Flex flexDir="column">
             <Flex flexDir="row" display={["block", "flex"]}>
-              {[1, 2, 3].map((article, i) => (
+              {[1, 2, 3].map((portfolio, i) => (
                 <Project
                   link="https://futr.ai"
                   title="Futr.ai Chatbot Solution"
@@ -28,13 +28,12 @@ const Portfolio = () => {
                   pl={i === 0 ? 0 : 10}
                   pr={i === 0 ? 4 : 0}
                   pt={18}
-                  key={article}
-
+                  key={portfolio}
                 />
               ))}
             </Flex>
             <Flex flexDir="row" display={["block", "flex"]} mt={[0, 20]}>
-              {[1, 2, 3].map((article, i) => (
+              {[1, 2, 3].map((portfolio, i) => (
                 <Project
                   link="https://futr.ai"
                   title="Futr.ai Chatbot Solution"
@@ -42,12 +41,12 @@ const Portfolio = () => {
                   tools={['TypeScipt', 'React.JS', 'Context API', 'Chakra-ui']}
                   pl={i === 0 ? 0 : 10}
                   pr={i === 0 ? 4 : 0}
-                  key={article}
+                  key={portfolio}
                 />
               ))}
             </Flex>
             <Flex flexDir="row" display={["block", "flex"]} mt={[0, 20]} mb={[10, 16]}>
-              {[1, 2, 3].map((article, i) => (
+              {[1, 2, 3].map((portfolio, i) => (
                 <Project
                   link="https://futr.ai"
                   title="Futr.ai Chatbot Solution"
@@ -55,7 +54,7 @@ const Portfolio = () => {
                   tools={['TypeScipt', 'React.JS', 'Context API', 'Chakra-ui']}
                   pl={i === 0 ? 0 : 10}
                   pr={i === 0 ? 4 : 0}
-                  key={article}
+                  key={portfolio}
                 />
               ))}
             </Flex>

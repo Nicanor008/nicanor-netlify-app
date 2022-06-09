@@ -14,7 +14,7 @@ const NavBar = () => (
       <Image src={Logo} alt="logo" h="20" />
     </Link>
     <Flex alignItems="center">
-      <Text px={2}>About Me</Text>
+      {/* <Text px={2}>About Me</Text> */}
       <NavLink
         link="/portfolio"
         text="Portfolio"
