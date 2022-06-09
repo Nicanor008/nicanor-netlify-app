@@ -1,4 +1,4 @@
-import { useMediaQuery, VStack, Flex, Image, Text, Box } from '@chakra-ui/react';
+import { useMediaQuery, VStack, Flex, Image, Text, Box, Link } from '@chakra-ui/react';
 import Nicanor from '../../assets/images/nicanor.svg'
 import SocialImageLink from './SocialImageLink';
 import { GetDarkLightMode } from '../../helpers/getDarkLightMode';
@@ -56,7 +56,7 @@ const Intro = () => {
         </Flex>
 
         {/* socials */}
-        <Flex flexDir="row">
+        <Flex flexDir="row" pb={4}>
           <SocialImageLink
             to="#"
             image={
@@ -95,6 +95,24 @@ const Intro = () => {
             text="Mail"
           />
         </Flex>
+        <Link
+          href="https://res.cloudinary.com/nicanor/image/upload/v1654581915/NicanorKorirResume.pdf"
+          target="_blank"
+          width="100%"
+          border="2px solid #9DB1FB"
+          borderRadius="50px"
+          bg="#587BF8"
+          variant="solid"
+          colorScheme="white"
+          color="white"
+          textAlign="center"
+          py={1.5}
+          _hover={{
+            textDecoration: 'none'
+          }}
+        >
+          View Resume
+        </Link>
       </VStack>
       {isTabletOrDesktop && <Image src={Nicanor} alt="nicanor" />}
     </Flex>
