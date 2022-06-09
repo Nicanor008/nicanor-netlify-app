@@ -9,6 +9,7 @@ import {
 import About from './components/About';
 import Intro from './components/Intro';
 import NavBar from './components/NavBar';
+import Work from './components/Work';
 
 function Homepage() {
   return (
@@ -30,6 +31,8 @@ function Homepage() {
             </Flex>
 
             <About />
+
+            <Work />
           </VStack>
         </Grid>
       </Box>
