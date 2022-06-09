@@ -14,7 +14,7 @@ const Project = ({ link, title, role, tools, pl, pr }) => (
     <Image src={Futr} alt="futr.ai" />
     <Box px={4}>
       <Flex justifyContent="space-between" py={3}>
-        <Link to={link} target="_blank" color="#587BF8">{title}</Link>
+        <Link href={link} target="_blank" color="#587BF8">{title}</Link>
         <Flex>
           <Box color="#888383">Role:&nbsp;</Box>
           <Box>{role}</Box>

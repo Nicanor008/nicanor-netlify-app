@@ -1,7 +1,7 @@
 import { Flex, Text, Link } from '@chakra-ui/react';
 
 const SocialImageLink = ({ to, image, text }) => (
-  <Link to={to} _hover={{ py: "2px" }} pr={4}>
+  <Link href={to} _hover={{ py: "2px" }} pr={4}>
     <Flex>
       {image}
       <Text pl={0.5}>{text}</Text>
