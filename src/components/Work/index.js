@@ -5,7 +5,7 @@ const Work = () => {
   return (
     <Flex flexDir="column" w="100%" h="auto" alignSelf="center">
       <Flex flexDir="row" display={["block", "flex"]} mt={[14, 20]}>
-        <Flex flexDir="column" w={['100%', '50%']} pr={[2, 12]}>
+        <Flex flexDir="column" w={['100%', '50%']} pr={[2, 12]} alignSelf="center">
           <Text fontSize={['36px', '50px']} fontWeight={700} fontFamily="Inter">WORK & PROJECTS</Text>
           <Text pt={4} textAlign="justify">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nisl eget quisque in sit venenatis ultricies.
