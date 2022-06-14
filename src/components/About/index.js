@@ -7,7 +7,7 @@ import BiUpArrow from '../Icons/BiUpArrow';
 const CompanyLink = ({ link, company }) => (
   <Link
     href={link}
-    color="blue"
+    color="lime"
     fontWeight="500"
     target="_blank"
     _hover={{

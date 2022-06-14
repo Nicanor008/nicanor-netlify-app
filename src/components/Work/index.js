@@ -1,4 +1,4 @@
-import { Flex, Text, Button } from '@chakra-ui/react'
+import { Flex, Text, Button, Link } from '@chakra-ui/react'
 import Project from './Project'
 import FA from '../../assets/images/fa.png'
 import Futr from '../../assets/images/futr.svg'
@@ -14,19 +14,25 @@ const Work = () => {
           {/* <Text pt={4}>
             The following are some of the projects I've been involved in.
           </Text> */}
-          <Button
-            width="62%"
-            border="2px solid #9DB1FB"
-            borderRadius="50px"
-            bg="white"
-            mt={4}
-            variant="solid"
-            colorScheme="white"
-            color="black"
-
+          <Link
+            href="/portfolio"
+            _hover={{ textDecoration: 'none'}}
+            width={['100%', '62%']}
           >
-            View All Projects
-          </Button>
+            <Button
+              width="100%"
+              border="2px solid #9DB1FB"
+              borderRadius="50px"
+              bg="white"
+              mt={4}
+              variant="solid"
+              colorScheme="white"
+              color="black"
+
+            >
+              View All Projects
+            </Button>
+          </Link>
         </Flex>
         <Project
           link="https://futr.ai"

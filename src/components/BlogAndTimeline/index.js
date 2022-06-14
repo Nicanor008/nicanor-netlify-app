@@ -1,4 +1,4 @@
-import { Flex, Text, Button, Box, Heading } from '@chakra-ui/react'
+import { Flex, Text, Button, Box, Heading, Link } from '@chakra-ui/react'
 import { GetDarkLightMode } from '../../helpers/getDarkLightMode';
 import { BlogArticle } from './BlogArticle';
 
@@ -10,25 +10,48 @@ const BlogAndTimeline = () => {
         <Flex flexDir="column" w={['100%', '50%']} pr={[2, 12]}>
           <Flex alignItems="center" justifyContent="space-between">
             <Text fontSize={['30px', '36px']} fontWeight={700} fontFamily="Inter">BLOG</Text>
-            <Button
-              border="2px solid #9DB1FB"
-              borderRadius="50px"
-              bg="white"
-              variant="solid"
-              colorScheme="white"
-              color="black"
-              cursor="default"
+            <Link
+              href="/blog"
+              _hover={{ textDecoration: 'none'}}
             >
-              View All
-            </Button>
+              <Button
+                border="2px solid #9DB1FB"
+                borderRadius="50px"
+                bg="white"
+                variant="solid"
+                colorScheme="white"
+                color="black"
+              >
+                View All
+              </Button>
+            </Link>
           </Flex>
 
           <BlogArticle
-            title="Title One"
-            link="#"
-            description="Qui incididunt sint voluptate velit laboris esse.sint voluptate velit laboris esse.uptate velit laboris esse.sint voluptate velit laboris esse.uptate velit laboris esse.sint voluptate velit laboris esse.dsd"
+            title="Securing NodeJS Apps: Best Practices"
+            link="https://nicanor.hashnode.dev/securing-nodejs-apps-best-practices"
+            tags={['Node JS', 'Security', 'Express JS', 'REST API']}
+            description='The following are Some of the essential(required) that I believe should be followed to secure NodeJS apps Ensure you use up to date dependencies and...'
+          />
+          {/* <BlogArticle
+            title="Upload single or multiple files in react dropzone"
+            link='https://nicanor.hashnode.dev/upload-single-or-multiple-files-in-react-dropzone'
+            tags={['React.JS', 'React Dropzone', 'Form API']}
+            description="Uploading files can be both tricky and easy. Let's say a user wants to upload images to the API REST endpoint. We'll use axios to make our http calls..."
+          /> */}
+          <BlogArticle
+            title="DevOps For Frontend Developers"
+            link="https://nicanor.hashnode.dev/devops-for-frontend-developers-b7c281f396a7"
+            tags={['Frontend', 'DevOps', 'Tools']}
+            description="DevOps is on both the Frontend and backend software development. We all know that it’s common on the backend. And in fact, it’s always part of the job..."
           />
           <BlogArticle
+            title="Giving and Receiving Feedback"
+            link="https://nicanor.hashnode.dev/giving-and-receiving-feedback"
+            tags={['Soft Skills', 'Partnership', 'Communication']}
+            description="Your Feedback matters · Definition Feedback is the transmission of evaluative or corrective information about an action, event, or process to the..."
+          />
+          {/* <BlogArticle
             title="Title Two"
             link="#"
             description="Qui incididunt sint voluptate velit laboris esse.sint voluptate velit laboris esse.uptate velit laboris esse.sint voluptate velit laboris esse.uptate velit laboris esse.sint voluptate velit laboris esse.dsd"
@@ -38,6 +61,12 @@ const BlogAndTimeline = () => {
             link="#"
             description="Qui incididunt sint voluptate velit laboris esse.sint voluptate velit laboris esse.uptate velit laboris esse.sint voluptate velit laboris esse.uptate velit laboris esse.sint voluptate velit laboris esse.dsd"
           />
+          <BlogArticle
+            title={blog.title}
+            link={blog.link}
+            description={blog.description}
+            tags={blog.tags}
+          /> */}
         </Flex>
 
         {/* timeline */}

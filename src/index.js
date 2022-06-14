@@ -8,13 +8,14 @@ import * as serviceWorker from './serviceWorker';
 import './index.css'
 import Project from './pages/Portfolio';
 import Blog from './pages/Blog';
+import theme from './theme'
 
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
 
 root.render(
   <StrictMode>
-    <ColorModeScript />
+    <ColorModeScript initialColorMode={theme.config.initialColorMode} />
     <Router>
       <Routes>
         <Route exact path="/" element={<Homepage />} />
