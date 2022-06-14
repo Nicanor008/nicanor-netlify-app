@@ -2,6 +2,7 @@
   "name": "nicanor.me",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://nicanor.me",
   "dependencies": {
     "@chakra-ui/react": "^2.2.0",
     "@emotion/react": "^11.0.0",
