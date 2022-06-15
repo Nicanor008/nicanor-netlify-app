@@ -63,13 +63,13 @@ const About = () => {
         <Flex flexDir={["column-reverse", "row"]}>
           <Flex flexDir="column" width="100%" pr={[2, 12]} w={["100%", "50%"]}>
             <Text pt={4} textAlign="justify">
-              I'm a software engineer who's trapped in the creative world of technology. I created beatiful web apps with modern software technologies.
-              My interest in software engineering started back in 2016 when decided to create a facebook alternative web app - turns out there were more 
-              technologies and things to get familiar with. Ever since, I've dived deep into learning and understanding about web technologies and 
+              I'm a software engineer who's trapped in the creative world of technology. I create beautiful web apps using modern technologies.
+              My interest in software engineering started back in 2016 when decided to create a facebook clone web app - turns out there were more 
+              technologies and things to be familiar with. Ever since, I've dived deep into learning and understanding about web technologies and 
               software engineering in general.
               <br /><br />
               Fast forward to today, I've had the privilege of working at <CompanyLink company="Andela" link="https://andela.com/" />, <CompanyLink company="KenSwitch" link="https://www.kenswitch.com/" />, 
-              &nbsp;<CompanyLink company="Incentro" link="https://www.incentro.com/en" /> and <CompanyLink company="SovTech" link="https://www.sovtech.co.za/" />. My main focus now is building 
+               <CompanyLink company="Incentro" link="https://www.incentro.com/en" /> and <CompanyLink company="SovTech" link="https://www.sovtech.co.za/" />. My main focus now is building 
               accessible, performant and digital experiences at SovTech for a variety of clients.
               <br /><br />
               Away from coding, I'm a biker and a pencil artist. I turn visual imaginations into art drawings through pencil and paper.
