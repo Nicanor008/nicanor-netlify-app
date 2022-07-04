@@ -9,7 +9,7 @@ const NavLink = ({ link, text }) => (
 )
 
 const NavBar = () => (
-  <Flex justify="space-between" h="80px">
+  <Flex justify="space-between" w="100%" h="80px" px={["2rem", "6rem"]}>
     <Link href="/">
       <Image src={Logo} alt="logo" h="20" />
     </Link>

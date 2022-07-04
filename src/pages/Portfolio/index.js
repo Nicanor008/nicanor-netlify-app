@@ -1,7 +1,6 @@
 import {
   ChakraProvider,
   Box,
-  VStack,
   Grid,
   theme,
   Flex
@@ -21,7 +20,7 @@ const data = [
     link: "https://futr.ai",
     title: "Futr.ai Chatbot Solution",
     role: "Frontend Developer",
-    tools: ['TypeScipt', 'React.JS', 'Context API', 'Chakra-ui', 'GraphQL', 'React Testing Library'],
+    tools: ['TypeScipt', 'React', 'Chakra-ui', 'GraphQL'],
     image: Futr,
     imageAlt: "Futr.ai",
     description: `This is a dynamic customisable data driven chatbot SAAS plugin. I was involved in rewriting the entire
@@ -31,7 +30,7 @@ const data = [
     link: "https://lendxs.com/",
     title: "Financial Access",
     role: "Software Engineer",
-    tools: ['JavaScript', 'React.JS', 'Redux', 'Material UI', 'Python'],
+    tools: ['JS', 'React', 'Redux', 'Material UI', 'Python'],
     image: FA,
     imageAlt: "Financial Access",
     description: `This is a SAAS solution for loan origination that includes digital data collection, workflow management, credit scoring and impact monitoring. 
@@ -42,7 +41,7 @@ const data = [
     link: "https://heroes4change.com/",
     title: "Heroes For Change",
     role: "Frontend Developer",
-    tools: ['JavaScript', 'React.JS', 'Redux', 'Material UI', 'React Testing Library'],
+    tools: ['JS', 'React', 'Redux', 'Material UI'],
     description: `Heroes for Change is a for-profit, service-based organization harnessing the power of purpose-driven youth volunteers
       who have the resource of time, social capital and trust, who will deliver scalable social impact programmes in their own communities.
     I was part of the the frontend team that implemented the dashboard to manage the heroes for different programmes.`,
@@ -53,7 +52,7 @@ const data = [
     link: "https://incentro.com/",
     title: "Incentro",
     role: "Frontend Developer",
-    tools: ['JavaScript', 'React.JS', 'Gatsby.JS', 'GraphQL', 'Contentful'],
+    tools: ['JS', 'React', 'Gatsby', 'GraphQL', 'Contentful'],
     description: `I was involved in the maintenance of the company website. This mostly included, implemented feedback and new features from the client and stackholders`,
     image: Incentro,
     imageAlt: "incentro"
@@ -62,7 +61,7 @@ const data = [
     link: "https://careers.incentro.com/",
     title: "Incentro Careers",
     role: "Frontend Developer",
-    tools: ['JavaScript', 'React.JS', 'Gatsby.JS', 'GraphQL', 'Contentful', ],
+    tools: ['JS', 'React', 'Gatsby', 'GraphQL', 'Contentful', ],
     description: `I did translate the current platform to spanish and added new filter options on the vacancies.`,
     image: IncentroCareers,
     imageAlt: "incentro"
@@ -71,7 +70,7 @@ const data = [
     link: "https://followthebeat.nl/",
     title: "Follow The Beat",
     role: "Frontend Developer",
-    tools: ['JavaScript', 'React.JS', 'Firebase'],
+    tools: ['JavaScript', 'React', 'Firebase'],
     description: `Developed one the most streamed platform during the 2020 new year celebration. About 600, 000 active views were streamed on the platform simulateneously.`,
     image: FollowtheBeat,
     imageAlt: "incentro"
@@ -82,27 +81,25 @@ const Portfolio = () => {
   return (
     <ChakraProvider theme={theme}>
     <Box fontSize="md">
-      <Grid minH="100vh" py={3} mx={["2rem", "6rem"]}>
-        <NavBar />
-        <VStack spacing={8}>
-          <Flex flexDir="column">
-            <Flex w="100%" display={["block", "inline-grid"]} gridTemplateColumns="repeat(3, 1fr)">
-              {data.map((portfolio, i) => (
-                <PortfolioProject
-                  link={portfolio.link}
-                  title={portfolio.title}
-                  role={portfolio.role}
-                  tools={portfolio.tools}
-                  pl={10}
-                  pr={0}
-                  description={portfolio.description}
-                  image={portfolio.image}
-                  imageAlt={portfolio.imageAlt}
-                />
-              ))}
-            </Flex>
+      <NavBar />
+      <Grid py={3} px={["2rem", "3rem"]}>
+        <Flex flexDir="column">
+          <Flex display={["block", "inline-grid"]} gridTemplateColumns="repeat(3, 1fr)">
+            {data.map((portfolio, i) => (
+              <PortfolioProject
+                link={portfolio.link}
+                title={portfolio.title}
+                role={portfolio.role}
+                tools={portfolio.tools}
+                pl={10}
+                pr={0}
+                description={portfolio.description}
+                image={portfolio.image}
+                imageAlt={portfolio.imageAlt}
+              />
+            ))}
           </Flex>
-        </VStack>
+        </Flex>
       </Grid>
     </Box>
     <Footer />
