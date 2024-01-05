@@ -1,9 +1,9 @@
 import { Flex, Box, Text, Image, Link, HStack, Tag, TagLabel } from '@chakra-ui/react'
 
-const Project = ({ link, title, role, tools, pl, pr, description, image, imageAlt }) => (
+const Project = ({ link, title, role, tools, pl, pr, description, image, imageAlt, width }) => (
   <Flex
     flexDir="column"
-    w={["100%", "50%"]}
+    w={width ?? ["90%", "30%"]}
     ml={[0, pl]}
     mr={[0, pr]}
     pt={[6, 0]}

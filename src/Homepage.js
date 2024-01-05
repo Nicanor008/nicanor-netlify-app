@@ -16,7 +16,7 @@ import Footer from './components/Footer';
 function Homepage() {
   return (
     <ChakraProvider theme={theme}>
-      <Box fontSize="md">
+      <Box fontSize="md" bg="#233554" color="white">
         <Grid minH="100vh" py={3} mx={["2rem", "6rem"]}>
           <NavBar />
           <VStack spacing={8}>

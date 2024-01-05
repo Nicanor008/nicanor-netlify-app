@@ -1,6 +1,7 @@
 import { useMediaQuery, VStack, Flex, Image, Text, Box, Link } from '@chakra-ui/react';
 import Nicanor from '../../assets/images/nicanor.png'
 import SocialImageLink from './SocialImageLink';
+import Resume from '../../assets/docs/resume.pdf'
 
 const Intro = () => {
   const [isTabletOrDesktop] = useMediaQuery('(min-width: 48em)')
@@ -83,7 +84,7 @@ const Intro = () => {
           />
         </Flex>
         <Link
-          href="https://res.cloudinary.com/nicanor/image/upload/v1654581915/NicanorKorirResume.pdf"
+          href={Resume}
           target="_blank"
           width="100%"
           border="2px solid #9DB1FB"

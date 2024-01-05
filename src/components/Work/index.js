@@ -40,13 +40,14 @@ const Work = () => {
           role="Frontend Developer"
           tools={['TypeScipt', 'React.JS', 'Context API', 'Chakra-ui', 'React Testing Library']}
           pl={10}
-          pr={0}
+          pr={10}
           description="
           This is a dynamic customisable data driven chatbot SAAS plugin. I was involved in rewriting the entire
            application to use socket communication with a responsive interactive user interface interface.
           "
           image={Futr}
           imageAlt="Futr.ai"
+          width="50%"
         />
       </Flex>
       <Flex flexDir="row" display={["block", "flex"]} mt={[14, 20]}>
@@ -56,7 +57,7 @@ const Work = () => {
           role="Software Engineer"
           tools={['JavaScript', 'React.JS', 'Redux', 'Material UI', 'Python']}
           pl={0}
-          pr={12}
+          // pr={12}
           description="
             This is a SAAS solution for loan origination that includes digital data collection, workflow management, credit scoring and impact monitoring. 
             I was involved in frontend development of interactive user interface and integration with different microservices.
@@ -65,6 +66,21 @@ const Work = () => {
           image={FA}
           imageAlt="financial access"
         /> 
+        <Project
+          link="https://heroes4change.com/"
+          title="Heroes For Change"
+          role="Frontend Developer"
+          tools={['JavaScript', 'React.JS', 'Redux', 'Material UI']}
+          pl={10}
+          pr={0}
+          description="
+            Heroes for Change is a for-profit, service-based organization harnessing the power of purpose-driven youth volunteers
+             who have the resource of time, social capital and trust, who will deliver scalable social impact programmes in their own communities.
+            I was part of the the frontend team that implemented the dashboard to manage the heroes for different programmes.
+          "
+          image={Heroes4Change}
+          imageAlt="Heroes"
+        />
         <Project
           link="https://heroes4change.com/"
           title="Heroes For Change"
