@@ -1,6 +1,6 @@
 import { Text, Flex, Image, Link } from '@chakra-ui/react';
 import Logo from '../../assets/images/logo.svg'
-import { ColorModeSwitcher } from '../../ColorModeSwitcher';
+// import { ColorModeSwitcher } from '../../ColorModeSwitcher';
 
 const NavLink = ({ link, text }) => (
   <Link href={link} _hover={{ textDecoration: 'none' }}>
@@ -23,7 +23,7 @@ const NavBar = () => (
         link="/blog"
         text="Blog"
       />
-      <ColorModeSwitcher />
+      {/* <ColorModeSwitcher /> */}
     </Flex>
   </Flex>
 )
