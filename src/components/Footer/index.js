@@ -1,13 +1,13 @@
-import { Flex, Link } from '@chakra-ui/react'
+import { Flex, Link, Text } from '@chakra-ui/react'
 import { GetDarkLightMode } from '../../helpers/getDarkLightMode';
 
 const Footer = () => {
   const activeColor = GetDarkLightMode()
   
   return (
-    <Flex justifyContent="center" bg={activeColor === 'dark' ? '#587BF8' : '#C5D1FF'} w="100%" py={10}>
-      <Flex alignItems="center">
-        <Link href="https://linkedin.com/in/nicanor-korir" target="blank" px={1} id="linkedin">
+    <Flex justifyContent="center" bg={activeColor === 'dark' ? '#587BF8' : '#C5D1FF'} w="100%">
+      <Flex alignItems="center" flexDir="column" w="100%">
+        {/* <Link href="https://linkedin.com/in/nicanor-korir" target="blank" px={1} id="linkedin">
           <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 1024 1024" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg">
             <path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM349.3 793.7H230.6V411.9h118.7v381.8zm-59.3-434a68.8 68.8 0 1 1 68.8-68.8c-.1 38-30.9 68.8-68.8 68.8zm503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7 120.2 0 142.3 79.1 142.3 181.9v209.4z"></path>
           </svg>
@@ -27,6 +27,18 @@ const Footer = () => {
             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
             <polyline points="22,6 12,13 2,6"></polyline>
           </svg>
+        </Link> */}
+        <Text py={2}>Designed and developed with ❤️ by Nicanor Korir</Text>
+        <Link
+          href="https://github.com/Nicanor008/nicanor-netlify-app"
+          target="_blank"
+          color="white"
+          fontWeight={600}
+          w="100%"
+          textAlign="center"
+          bg={'#4a69d8'}
+        >
+          Github Code
         </Link>
       </Flex>
     </Flex>
