@@ -8,25 +8,32 @@ const Intro = () => {
 
   return (
     <Flex justifyContent="space-around" w="100%" h={window.innerHeight - 270} alignItems="center">
-      <VStack>
+      <VStack maxW="50%">
         <Flex flexDir="row" alignSelf="center" width="100%" fontSize="16px" mt={[20, 0]}>
-          <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="1.5em" width="1em" xmlns="http://www.w3.org/2000/svg">
-            <path fill="none" stroke="currentColor" strokeWidth="2" d="M12,22 C12,22 4,16 4,10 C4,5 8,2 12,2 C16,2 20,5 20,10 C20,16 12,22 12,22 Z M12,13 C13.657,13 15,11.657 15,10 C15,8.343 13.657,7 12,7 C10.343,7 9,8.343 9,10 C9,11.657 10.343,13 12,13 L12,13 Z" />
-          </svg>
+          wave**
           &nbsp;
-          Nairobi, Kenya
+          Hello, I'm
         </Flex>
-        <Box fontSize={["80px", "100px"]} marginBlockStart={0} marginBlockEnd={0} fontWeight="800" fontFamily="inter" mt="-30px !important">NICANOR</Box>
+        <Flex alignItems="center">
+        <Box fontSize={["80px", "50px"]} marginBlockStart={0} marginBlockEnd={0} fontWeight="800" fontFamily="inter">NICANOR</Box>
         <Box
-          fontSize={["126px", "160px"]}
+          fontSize={["126px", "50px"]}
           marginBlockStart={0}
           marginBlockEnd={0}
           fontWeight="800"
-          mt={["-70px !important", "-100px !important"]}
-          opacity="0.6"
+          opacity="0.7"
+          ml={6}
         >
           KORIR
         </Box>
+        </Flex>
+        <Text pb={6} fontWeight={200}>
+          Proident sunt tempor dolor officia reprehenderit qui dolore exercitation consequat duis duis aliquip ullamco et.
+          Proident sunt tempor dolor officia reprehenderit qui dolore exercitation consequat duis duis aliquip ullamco et.
+          Proident sunt tempor dolor officia reprehenderit qui dolore exercitation consequat duis duis aliquip ullamco et.
+          Proident sunt tempor dolor officia reprehenderit qui dolore exercitation consequat duis duis aliquip ullamco et.
+          Proident sunt tempor dolor officia reprehenderit qui dolore exercitation consequat duis duis aliquip ullamco et.
+        </Text>
 
         {/* role/title */}
         <Flex flexDir="row" alignSelf="center" pb={4}>
@@ -101,6 +108,13 @@ const Intro = () => {
         >
           View Resume
         </Link>
+        <Flex pt={2} flexDir="row" alignSelf="center" width="100%" fontSize="16px" mt={[20, 0]}>
+          <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="1.5em" width="1em" xmlns="http://www.w3.org/2000/svg">
+            <path fill="none" stroke="currentColor" strokeWidth="2" d="M12,22 C12,22 4,16 4,10 C4,5 8,2 12,2 C16,2 20,5 20,10 C20,16 12,22 12,22 Z M12,13 C13.657,13 15,11.657 15,10 C15,8.343 13.657,7 12,7 C10.343,7 9,8.343 9,10 C9,11.657 10.343,13 12,13 L12,13 Z" />
+          </svg>
+          &nbsp;
+          Nairobi, Kenya
+        </Flex>
       </VStack>
       {isTabletOrDesktop && (
         <Image
