@@ -8,8 +8,8 @@ const Intro = () => {
 
   return (
     <Flex justifyContent="space-around" w="100%" minH={window.innerHeight - 100} alignItems="center">
-      <VStack maxW={["100%", "50%"]}>
-        <Flex flexDir="row" alignSelf="center" width="100%" fontSize="16px" mt={[20, 0]}>
+      <VStack maxW={["100%", "40%"]}>
+        <Flex flexDir="row" alignSelf="center" width="100%" fontSize="16px">
           👋
           &nbsp;
           Hello, I'm
@@ -27,7 +27,7 @@ const Intro = () => {
             KORIR
           </Box>
         </Flex>
-        <Text pb={6} fontWeight={300}>
+        <Text pb={6} fontWeight={300} textAlign="justify">
           With over 5 years of experience as a senior software engineer, I've built a career on tackling diverse problems across industries like commerce, 
           finance, tech, energy, etc. My passion lies in crafting scalable web applications that empower businesses and connect people. I'm a critical 
           thinker and a creative problem solver, adept at navigating complex technical landscapes and bringing innovative solutions to life. 

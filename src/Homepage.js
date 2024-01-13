@@ -20,7 +20,7 @@ function Homepage() {
         <Grid minH="100vh" py={3} mx={["2rem", "6rem"]}>
           <NavBar />
           <VStack spacing={8}>
-            <Flex w="100%" flexDir="column" alignItems="center">
+            {/* <Flex> */}
               <Intro />
 
               {/* scroll
@@ -30,7 +30,7 @@ function Homepage() {
                   <circle cx="18.7042" cy="17.3582" r="3" stroke="#9DB1FB" strokeWidth="2"/>
                 </svg>
               </Box> */}
-            </Flex>
+            {/* </Flex> */}
 
             <About />
 
