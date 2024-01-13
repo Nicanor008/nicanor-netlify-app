@@ -5,7 +5,8 @@ const About = () => {
   const [isTabletOrDesktop] = useMediaQuery('(min-width: 48em)')
 
   return (
-    <Flex flexDir="column" w="100%" mt="30rem" h="auto" alignSelf="center" display={["block", "flex"]} minH="100vh">
+    <Flex bg="white" color="black" minH="98vh" py={5} alignItems="center">
+    <Flex mx={["2rem", "6rem"]} flexDir="column" w="100%" h="auto" alignSelf="center" display={["block", "flex"]}>
       <Flex flexDir={["column", "row"]} alignItems="center">
         <Flex flexDir="column" width="100%" pr={[2, 12]} w={["100%", "50%"]}>
           <Flex flexDir="column">
@@ -77,6 +78,7 @@ const About = () => {
           <ToolsAndTechnologies />
         </Flex>
     </Flex>
+  </Flex>
   </Flex>
 )
 }

@@ -12,6 +12,7 @@ import Intro from './components/Intro';
 import NavBar from './components/NavBar';
 import Work from './components/Work';
 import Footer from './components/Footer';
+import OverTheYears from './components/OverTheYears';
 
 function Homepage() {
   return (
@@ -32,10 +33,13 @@ function Homepage() {
               </Box> */}
             {/* </Flex> */}
 
+</VStack>
+</Grid>
             <About />
-
-            <Work />
-
+            {/* <Work /> */}
+            <Grid minH="100vh" py={3} mx={["2rem", "6rem"]}>
+<VStack spacing={8}>
+            <OverTheYears />
             <BlogAndTimeline />
 
           </VStack>
