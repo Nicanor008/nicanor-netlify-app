@@ -23,13 +23,13 @@ function Homepage() {
             <Flex w="100%" flexDir="column" alignItems="center">
               <Intro />
 
-              {/* scroll */}
-              <Box mt="6rem">
+              {/* scroll
+              <Box mt="1rem" bg="red">
                 <svg width="36" height="70" viewBox="0 0 36 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect x="1" y="1" width="34" height="68" rx="17" fill="white" stroke="#9DB1FB" strokeWidth="2"/>
                   <circle cx="18.7042" cy="17.3582" r="3" stroke="#9DB1FB" strokeWidth="2"/>
                 </svg>
-              </Box>
+              </Box> */}
             </Flex>
 
             <About />
