@@ -19,7 +19,7 @@ root.render(
     <Router>
       <Routes>
         <Route exact path="/" element={<Homepage />} />
-        <Route exact path="/portfolio" element={<Project />} />
+        <Route exact path="/my-work" element={<Project />} />
         <Route exact path="/blog" element={<Blog />} />
       </Routes>
     </Router>

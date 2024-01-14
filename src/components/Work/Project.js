@@ -1,9 +1,29 @@
-import { Flex, Box, Text, Image, Link, HStack, Tag, TagLabel } from '@chakra-ui/react'
+import {
+  Flex,
+  Box,
+  Text,
+  Image,
+  Link,
+  HStack,
+  Tag,
+  TagLabel,
+} from '@chakra-ui/react';
 
-const Project = ({ link, title, role, tools, pl, pr, description, image, imageAlt, width }) => (
+const Project = ({
+  link,
+  title,
+  role,
+  tools,
+  pl,
+  pr,
+  description,
+  image,
+  imageAlt,
+  width,
+}) => (
   <Flex
     flexDir="column"
-    w={width ?? ["90%", "30%"]}
+    w={width ?? ['90%', '30%']}
     ml={[0, pl]}
     mr={[0, pr]}
     pt={[6, 0]}
@@ -14,7 +34,9 @@ const Project = ({ link, title, role, tools, pl, pr, description, image, imageAl
     <Image src={image} alt={imageAlt} />
     <Box px={4}>
       <Flex justifyContent="space-between" py={3}>
-        <Link href={link} target="_blank" color="#587BF8">{title}</Link>
+        <Link href={link} target="_blank" color="#587BF8">
+          {title}
+        </Link>
         <Flex>
           <Box color="#888383">Role:&nbsp;</Box>
           <Box>{role}</Box>
@@ -22,13 +44,8 @@ const Project = ({ link, title, role, tools, pl, pr, description, image, imageAl
       </Flex>
       {/* <Flex py={2}> */}
       <HStack spacing={4} pb={3}>
-        {tools.map((name) => (
-          <Tag
-            key={name}
-            borderRadius='full'
-            variant='solid'
-            bg='#587BF8'
-          >
+        {tools.map(name => (
+          <Tag key={name} borderRadius="full" variant="solid" bg="#587BF8">
             <TagLabel>{name}</TagLabel>
           </Tag>
         ))}
@@ -39,6 +56,6 @@ const Project = ({ link, title, role, tools, pl, pr, description, image, imageAl
       </Text>
     </Box>
   </Flex>
-)
+);
 
-export default Project
+export default Project;

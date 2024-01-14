@@ -1,22 +1,30 @@
-import { Flex, Text, Button, Link } from '@chakra-ui/react'
-import Project from './Project'
-import FA from '../../assets/images/fa.png'
-import Futr from '../../assets/images/futr.svg'
-import Heroes4Change from '../../assets/images/heroes4change.jpeg'
+import { Flex, Text, Button, Link } from '@chakra-ui/react';
+import Project from './Project';
+import FA from '../../assets/images/fa.png';
+import Futr from '../../assets/images/futr.svg';
+import Heroes4Change from '../../assets/images/heroes4change.jpeg';
 
 const Work = () => {
   return (
     <Flex flexDir="column" w="100%" h="auto" alignSelf="center">
-      <Flex flexDir="row" display={["block", "flex"]} mt={[14, 20]}>
-        <Flex flexDir="column" w={['100%', '50%']} pr={[2, 12]} alignSelf="center" alignItems="center">
-          <Text fontSize={['36px', '50px']} fontWeight={700} fontFamily="Inter">WORK & PROJECTS</Text>
+      <Flex flexDir="row" display={['block', 'flex']} mt={[14, 20]}>
+        <Flex
+          flexDir="column"
+          w={['100%', '50%']}
+          pr={[2, 12]}
+          alignSelf="center"
+          alignItems="center"
+        >
+          <Text fontSize={['36px', '50px']} fontWeight={700} fontFamily="Inter">
+            WORK & PROJECTS
+          </Text>
           {/* TODO: update projects description */}
           {/* <Text pt={4}>
             The following are some of the projects I've been involved in.
           </Text> */}
           <Link
             href="/portfolio"
-            _hover={{ textDecoration: 'none'}}
+            _hover={{ textDecoration: 'none' }}
             width={['100%', '62%']}
           >
             <Button
@@ -28,7 +36,6 @@ const Work = () => {
               variant="solid"
               colorScheme="white"
               color="black"
-
             >
               View All Projects
             </Button>
@@ -38,7 +45,13 @@ const Work = () => {
           link="https://futr.ai"
           title="Futr.ai Chatbot Solution"
           role="Frontend Developer"
-          tools={['TypeScipt', 'React.JS', 'Context API', 'Chakra-ui', 'React Testing Library']}
+          tools={[
+            'TypeScipt',
+            'React.JS',
+            'Context API',
+            'Chakra-ui',
+            'React Testing Library',
+          ]}
           pl={10}
           pr={10}
           description="
@@ -50,7 +63,7 @@ const Work = () => {
           width="50%"
         />
       </Flex>
-      <Flex flexDir="row" display={["block", "flex"]} mt={[14, 20]}>
+      <Flex flexDir="row" display={['block', 'flex']} mt={[14, 20]}>
         <Project
           link="https://lendxs.com/"
           title="Financial Access"
@@ -65,7 +78,7 @@ const Work = () => {
           "
           image={FA}
           imageAlt="financial access"
-        /> 
+        />
         <Project
           link="https://heroes4change.com/"
           title="Heroes For Change"
@@ -98,7 +111,7 @@ const Work = () => {
         />
       </Flex>
     </Flex>
-  )
-}
+  );
+};
 
-export default Work
+export default Work;
