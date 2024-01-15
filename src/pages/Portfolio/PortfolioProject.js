@@ -24,7 +24,7 @@ const PortfolioProject = ({
     mb={8}
     w={['95%', '24%']}
     m={[2, 6]}
-    bg="#4c6591"
+    bg="#324971"
   >
     <Image
       src={image}
@@ -32,7 +32,7 @@ const PortfolioProject = ({
       borderTopStartRadius="8px"
       borderTopEndRadius="8px"
     />
-    <Box px={4} bg="#4c6591" h="100%">
+    <Box px={4} bg="#324971" h="100%">
       <Flex justifyContent="space-between" py={3}>
         <Link href={link} target="_blank" color="#fff" fontWeight={500}>
           {title}

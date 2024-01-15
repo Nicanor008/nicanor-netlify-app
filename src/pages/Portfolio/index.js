@@ -72,16 +72,8 @@ const Portfolio = () => {
       <Box fontSize="md" bg="#233554">
         <NavBar />
         <Grid py={3} w="100%" justifyItems="center">
-          {/* <Flex
-            flexDir="column"
-            w={['98%', '80%']}
-            bg="lime"
-            justifyItems="center"
-          > */}
           <Flex
-            // display={['block', 'inline-grid']}
             w={['98%', '80%']}
-            // gridTemplateColumns="repeat(4, 1fr)"
             flexDir={['column', 'row']}
             flexWrap="wrap"
             justifyContent="center"
@@ -101,7 +93,6 @@ const Portfolio = () => {
               />
             ))}
           </Flex>
-          {/* </Flex> */}
         </Grid>
       </Box>
       <Footer />
