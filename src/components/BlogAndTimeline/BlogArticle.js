@@ -21,7 +21,7 @@ export const BlogArticle = ({ title, link, description, tags }) => (
       <Heading as="h4" size="md" fontSize="18px">
         {title}
       </Heading>
-      <Text py={2} fontSize="14px">
+      <Text py={2} fontSize="14px" color="#fff">
         {description}
       </Text>
       <HStack spacing={4} pb={3}>

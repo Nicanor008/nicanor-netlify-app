@@ -69,9 +69,9 @@ const data = [
 const Portfolio = () => {
   return (
     <ChakraProvider theme={theme}>
-      <Box fontSize="md" bg="#233554">
+      <Box fontSize="md" bg="#233554" color="#fff">
         <NavBar />
-        <Grid py={3} w="100%" justifyItems="center">
+        <Grid py={3} w="100%" justifyItems="center" minH="90vh">
           <Flex
             w={['98%', '80%']}
             flexDir={['column', 'row']}

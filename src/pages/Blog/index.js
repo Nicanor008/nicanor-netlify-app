@@ -66,9 +66,9 @@ const blogData = [
 const Blog = () => {
   return (
     <ChakraProvider theme={theme}>
-      <Box fontSize="md" bg="#233554">
+      <Box fontSize="md" bg="#233554" color="#fff" minH="100vh">
         <NavBar />
-        <VStack spacing={8} pb={[2, 5]}>
+        <VStack spacing={8} pb={[2, 5]} minH="90vh">
           <Flex
             flexDir="column"
             justifyContent="center"

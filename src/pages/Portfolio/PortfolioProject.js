@@ -45,7 +45,7 @@ const PortfolioProject = ({
           </Tag>
         ))}
       </HStack>
-      <Text fontSize="14px" mb={2}>
+      <Text fontSize="14px" mb={2} color="#fff">
         {description}
       </Text>
     </Box>

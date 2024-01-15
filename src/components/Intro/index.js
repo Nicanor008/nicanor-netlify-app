@@ -47,6 +47,16 @@ const Intro = () => {
             KORIR
           </Box>
         </Flex>
+        <Text
+          textAlign="left"
+          fontWeight={600}
+          fontSize={['22px', '28px']}
+          w="100%"
+          opacity="0.5"
+          marginBlockStart={0}
+        >
+          I build Stuff for the web
+        </Text>
         <Text pb={6} fontWeight={300} textAlign="justify">
           With over 5 years of experience as a senior software engineer, I've
           built a career on tackling diverse problems across industries like
@@ -54,14 +64,14 @@ const Intro = () => {
           scalable web applications that empower businesses and connect people.
           I'm a critical thinker and a creative problem solver, adept at
           navigating complex technical landscapes and bringing innovative
-          solutions to life.
-          <br />
-          <br />
-          But the code isn't the only story. Outside the digital realm, I'm a
+          solutions to life
+          {/* <br />
+          <br /> */}
+          {/* But the code isn't the only story. Outside the digital realm, I'm a
           devoted father and a cycling enthusiast, constantly seeking new ways
           to challenge myself and experience the world around me. This balance
           fosters a unique perspective, one that fuels my dedication to
-          excellence both on and off the screen.
+          excellence both on and off the screen. */}
         </Text>
 
         {/* role/title */}
