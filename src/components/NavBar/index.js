@@ -1,5 +1,6 @@
 import { Text, Flex, Image, Link } from '@chakra-ui/react';
 import Logo from '../../assets/images/logo.svg';
+import ResumeLink from '../ResumeLink';
 
 const NavLink = ({ link, text }) => (
   <Link href={link} _hover={{ textDecoration: 'none' }}>
@@ -12,9 +13,10 @@ const NavBar = () => (
     <Link href="/">
       <Image src={Logo} alt="logo" h="20" />
     </Link>
-    <Flex alignItems="center">
+    <Flex alignItems="center" w="max-content">
       <NavLink link="/my-work" text="My work" />
       <NavLink link="/blog" text="Blog" />
+      <ResumeLink px={3} />
     </Flex>
   </Flex>
 );

@@ -1,14 +1,15 @@
 import { ColorModeScript } from '@chakra-ui/react';
 import React, { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Homepage from './Homepage';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from './serviceWorker';
-import './index.css'
+import './index.css';
 import Project from './pages/Portfolio';
 import Blog from './pages/Blog';
-import theme from './theme'
+import theme from './theme';
+import SingleProject from './pages/Portfolio/Project';
 
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
@@ -20,6 +21,7 @@ root.render(
       <Routes>
         <Route exact path="/" element={<Homepage />} />
         <Route exact path="/my-work" element={<Project />} />
+        <Route exact path="/my-work/futr" element={<SingleProject />} />
         <Route exact path="/blog" element={<Blog />} />
       </Routes>
     </Router>
