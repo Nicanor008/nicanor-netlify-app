@@ -30,7 +30,7 @@ const GuideToWork = () => {
               Web & Mobile, experimentals & Open source
             </Text>
             <Link href="/my-work">
-              <Button w="full" border="1px solid" borderColor="#4a69d8">
+              <Button w="full" border="1px solid" borderColor="#4a69d8" color="black">
                 SEE MY WORK
               </Button>
             </Link>
@@ -46,7 +46,7 @@ const GuideToWork = () => {
               Technical articles and some poems
             </Text>
             <Link href="/blog">
-              <Button w="full" border="1px solid" borderColor="#4a69d8">
+              <Button w="full" border="1px solid" borderColor="#4a69d8" color="black">
                 READ MY ARTICLES
               </Button>
             </Link>
