@@ -14,6 +14,36 @@ import NavBar from '../../components/NavBar';
 
 const blogData = [
   {
+    title: 'Monitoring a React App in AWS et al',
+    link: 'https://medium.com/@nicanorkorir008/monitoring-a-react-app-in-aws-et-al-784107ed885e',
+    tags: ['React', 'Monitoring', 'Post Deploy'],
+    description: `In today’s rapidly evolving digital landscape, ensuring web applications' optimal performance and reliability is paramount to product goals. With the advancements in the cloud infrastructure, monitor...`,
+  },
+  {
+    title: 'Web Components — Create your Library',
+    link: 'https://medium.com/@nicanorkorir008/web-components-create-your-library-9fff05e45c73',
+    tags: ['Web', 'Web APIs', 'Web Components', 'Shadow DOM'],
+    description: `Am sure you’ve used a complete part of code from the internet, that had all the functionality and worked up the magic you wanted. Well, that must be a component. If you were using it to ...`,
+  },
+  {
+    title: 'Package management tools in JavaScript Ecosystem',
+    link: 'https://nicanor.hashnode.dev/package-management-tools-in-javascript-ecosystem',
+    tags: ['Packages', 'npm', 'pnpm', 'Yarn', 'nx'],
+    description: `In JavaScript development, packages are bundles of code that provide specific functionality or features. The community often shares and maintains...`,
+  },
+  {
+    title: 'Shell and terminal',
+    link: 'https://nicanor.hashnode.dev/shell-and-terminal',
+    tags: ['Shell', 'bash', 'Scripting', 'terminal', 'OS'],
+    description: `Funny enough, I thought these two were the same, like one thing. But under the hood, these are two different things that share most similarities. Think of...`,
+  },
+  {
+    title: 'JavaScript Under the hood',
+    link: 'https://nicanor.hashnode.dev/javascript-under-the-hood',
+    tags: ['JavaScript', 'Event-loop', 'Execution Context'],
+    description: `JavaScript, the language of the web, breathes life into interactive interfaces and dynamic applications. While writing JavaScript code feels intuitive...`,
+  },
+  {
     title: 'Giving and Receiving Feedback',
     link: 'https://nicanor.hashnode.dev/giving-and-receiving-feedback',
     tags: ['Soft Skills', 'Partnership', 'Communication'],
